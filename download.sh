@@ -1,9 +1,9 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the GNU General Public License version 3.
 
-PRESIGNED_URL=""             # replace with presigned url from email
+PRESIGNED_URL="https://dobf1k6cxlizq.cloudfront.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kb2JmMWs2Y3hsaXpxLmNsb3VkZnJvbnQubmV0LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2ODM4MzY1NTJ9fX1dfQ__&Signature=IBu1dIOJmZajEygw22xt80vAt9O30NElmgiEjxsbkJNPh0zYHkLUsKAeZUnNPTZEUb4vVpGx3msjMyol7cXlK01yobrsyHulxtkjlMsNgRO8BB2fuCEaB4ARjOxKlTQH-sN2I0zpdPlRrgoNLkpt0b7wRvQlfbFBbJx7mD~vzwDdzQ7QzF1XggcYzTXaLsRXnzVXTgfFEZCMO4QDxHRL4F8N1WpDWMBW7kAqlfqd8EFMp0SRa8GC-Tml5t1D1X~eRydE2LYaOgYOhH9FvkBlizeDctQKKC4jf59g~CSWC0Bcom-dKtxlM3Kpx45nPvgHXxxuOJhmq3JhU1wUHP19-Q__&Key-Pair-Id=K231VYXPC1TA1R"             # replace with presigned url from email
 MODEL_SIZE="7B,13B,30B,65B"  # edit this list with the model sizes you wish to download
-TARGET_FOLDER=""             # where all files should end up
+TARGET_FOLDER="/home/hoffmanj/llm/weights_llama"             # where all files should end up
 
 declare -A N_SHARD_DICT
 
